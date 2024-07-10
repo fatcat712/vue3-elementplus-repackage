@@ -1,0 +1,30 @@
+.f-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-b-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-s-c {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.f-e-c {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.flex-none {
+    flex: none;
+}

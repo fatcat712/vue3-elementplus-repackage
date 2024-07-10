@@ -1,0 +1,42 @@
+/* :root {
+  --main-color: red;
+  --bg-color: pink;
+  --main-font-size: 14px;
+} */
+@mixin h100 {
+  height: 100vh;
+}
+
+@for $i from 1 through 20 {
+  .mt#{$i} {
+    margin-top: #{$i}px;
+  }
+
+  .mr#{$i} {
+    margin-right:#{$i}px;
+  }
+
+  .mb#{$i} {
+    margin-bottom: #{$i}px;
+  }
+
+  .ml#{$i} {
+    margin-left:#{$i}px;
+  }
+
+  .pt#{$i} {
+    padding-top: #{$i}px;
+  }
+
+  .pr#{$i} {
+    padding-right: #{$i}px;
+  }
+
+  .pb#{$i} {
+    padding-bottom: #{$i}px;
+  }
+
+  .pl#{$i} {
+    padding-left: #{$i}px;
+  }
+}
