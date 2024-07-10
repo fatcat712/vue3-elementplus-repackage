@@ -3,7 +3,7 @@
  * @Author: zhanyinjia
  * @Date: 2024-03-20 14:24:11
  * @LastEditors: zhanyinjia
- * @LastEditTime: 2024-07-10 16:26:51
+ * @LastEditTime: 2024-07-10 16:43:18
 -->
 <template>
   <div class="f-s-c">
@@ -86,7 +86,7 @@ const normalCalc = () => {
 }
 
 const workerCalc = () => {
-  const worker = new Worker("/vue3-elementplus-repackage/worker.js");
+  const worker = new Worker("/worker.js");
 
   worker.postMessage({
     command: "generate",
