@@ -16,6 +16,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/vue3-elementplus-repackage/",
   publicPath: process.env.NODE_ENV=='production'?'/vue3-elementplus-repackage':'/',
   plugins: [
     vue(),
