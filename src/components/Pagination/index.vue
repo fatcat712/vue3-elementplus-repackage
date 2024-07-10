@@ -3,7 +3,7 @@
  * @Author: zhanyinjia
  * @Date: 2023-08-07 13:43:10
  * @LastEditors: zhanyinjia
- * @LastEditTime: 2023-08-10 18:15:22
+ * @LastEditTime: 2024-07-10 10:33:08
 -->
 <template>
   <el-pagination
@@ -65,11 +65,11 @@ const size = computed({
 })
 
 // 分页大小变化
-const handleSizeChange = (size) => {
+const handleSizeChange = (size:number) => {
   console.log(size)
 }
 // 翻页
-const handleCurrentChange = (page) => {
+const handleCurrentChange = (page:number) => {
   console.log(page)
 }
 </script>
