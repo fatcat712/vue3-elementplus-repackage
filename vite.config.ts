@@ -3,7 +3,7 @@
  * @Author: zhanyinjia
  * @Date: 2023-08-09 17:59:39
  * @LastEditors: zhanyinjia
- * @LastEditTime: 2024-07-10 11:06:14
+ * @LastEditTime: 2024-07-10 11:25:03
  */
 import { fileURLToPath, URL } from 'node:url'
 
@@ -16,7 +16,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: process.env.NODE_ENV==='production'?'/vue3-elementplus-repackage':'/',
+  publicPath: process.env.NODE_ENV=='production'?'/vue3-elementplus-repackage':'/',
   plugins: [
     vue(),
     vueJsx(),
